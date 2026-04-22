@@ -3,3 +3,26 @@
 @{
     ViewData["Title"] = "Top Business Headlines";
 }
+
+<div class="container mt-4"><h1 class="mb-4">Top Business Headlines - United States</h1>
+    @if (ViewBag.Error != null)
+
+    {        <div class="alert alert-danger">@ViewBag.Error</div>    }
+
+    @if (Model != null && Model.Any())
+
+    {        foreach (var article in Model)
+
+        {            <div class="mb-3"><p><strong>Source:</strong> @article.Source?.Name</p><p><strong>Title:</strong> @article.Title</p><p><strong>Read more:</strong><a href="@article.Url" target="_blank">@article.Url</a></p></div><hr />
+        }
+
+    }
+
+    else
+
+    {
+
+        <p>No articles available at the moment.</p>
+    }
+
+</div>
