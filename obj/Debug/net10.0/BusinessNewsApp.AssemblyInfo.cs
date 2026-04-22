@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BusinessNewsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d14cde62a36fd2cd6aca05b62a0e59fc5c42da1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("BusinessNewsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BusinessNewsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
